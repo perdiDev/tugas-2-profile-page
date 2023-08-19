@@ -1,0 +1,130 @@
+body {
+  font-family: "Fredoka", sans-serif;
+}
+
+.bg-primary {
+  background-color: #1F4290;
+}
+
+.container {
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  padding-top: 5rem;
+}
+
+.card {
+  padding: 5rem;
+  background-color: #FFF3E4;
+  box-shadow: 0 0 rgba(0, 0, 0, 0), 0 0 rgba(0, 0, 0, 0), 0 0 rgba(0, 0, 0, 0), 0 0 rgba(0, 0, 0, 0), 15px 15px 0 #000;
+  border-style: solid;
+  border-color: black;
+  border-width: 4px;
+}
+.card .card-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+.card .card-content .profile {
+  width: 50%;
+  margin-right: auto;
+}
+.card .card-content .deskripsi {
+  width: 41%;
+}
+.card .card-content .deskripsi .title {
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 5rem;
+}
+.card .card-content .deskripsi .explanation {
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 1.25;
+  font-size: 1.25rem;
+  margin-bottom: 2.5rem;
+  font-weight: 3rem;
+}
+.card .card-content .deskripsi .sosmed {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card .card-content .deskripsi .sosmed .icon {
+  padding: 12px;
+  border-style: solid;
+  border-color: #000;
+}
+.card .card-content .deskripsi .sosmed .icon-1 {
+  background-color: #1DA599;
+}
+.card .card-content .deskripsi .sosmed .icon-2 {
+  background-color: #1DA599;
+}
+.card .card-content .deskripsi .sosmed .icon-3 {
+  background-color: #1DA599;
+}
+.card .card-content .deskripsi .sosmed .icon:hover {
+  transform: scale(1.05);
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 75ms;
+}
+
+.box-gambar {
+  box-shadow: 10px 10px 0px #FFF3E4;
+  transform: rotate(-2deg);
+  position: relative;
+}
+.box-gambar .kotak-kecil {
+  position: absolute;
+  width: 0.75rem;
+  height: 0.75rem;
+  background-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 2px;
+  z-index: 10;
+}
+.box-gambar .atas {
+  top: -0.25rem;
+}
+.box-gambar .bawah {
+  bottom: -0.25rem;
+}
+.box-gambar .kanan {
+  right: -0.25rem;
+}
+.box-gambar .kiri {
+  left: -0.25rem;
+}
+.box-gambar .gambar {
+  width: 100%;
+  aspect-ratio: 1.48/1;
+}
+.box-gambar .gambar .sumber-gambar {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  inset: 0px;
+  color: transparent;
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-color: #000;
+  border-style: solid;
+  border-width: 4px;
+  max-width: 100%;
+  display: block;
+}
+
+.box-gambar:hover {
+  transform: rotate(2deg);
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 75ms;
+}/*# sourceMappingURL=main.css.map */
